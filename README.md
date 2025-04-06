@@ -8,6 +8,40 @@ OpenBook este un e-reader open-source bazat pe ESP32-C6, dotat cu ecran e-paper 
 
 ## Diagramă Bloc
 
+
+           +-------------------------+
+           |         Battery          |
+           +------------+------------+
+                        |
+                        v
+           +-------------------------+
+           |     Charging IC (USB-C)  |
+           +------------+------------+
+                        |
+                        v
+           +-------------------------+
+           |         LDO              |  ---> 3.3V
+           +------------+------------+
+                        |
+     +------------------+-------------------+------------------+
+     |                  |                   |                  |
+     v                  v                   v                  v
++------------+   +--------------+   +---------------+   +-----------------+
+|   ESP32    |<->|    Display   |<->|    BME688     |<->|  Tactile Buttons|
+|    -C6     |   |   (SPI: 4W)   |   |   (I2C Bus)   |   |   (GPIO + RC)   |
++------------+   +--------------+   +---------------+   +-----------------+
+     |                  ^                    ^                    ^
+     |                  |                    |                    |
+     |                  |              Pull-up Resistors     Debouncing RC
+     |                  |
+     v                  |
++----------------------------+
+|      USB-C Connector       |
+| (USB Data ↔ ESP32 USB)     |
+| (ESD & Termination Prot.)  |
++----------------------------+
+
+
 ## Lista BOM
 
 | **Componentă**       | **Part Number**               | **Descriere**                          | **Furnizor (Mouser)**                                                               | **Datasheet**                                                                                 |
@@ -83,4 +117,10 @@ OpenBook este un e-reader open-source bazat pe ESP32-C6, dotat cu ecran e-paper 
 | GPIO18          | USB_D-             | USB-C                  | Linie de date USB negativă                  |
 
 Notă: Pinii sunt alocați conform specificațiilor ESP32-C6 și cerințelor dispozitivului OpenBook. Anumiți pini sunt multifuncționali și pot fi utilizați în diferite configurații.
+
+Poze Schematic si PCB 
+![image](https://github.com/user-attachments/assets/ed25abf7-a51e-4dfd-a840-12502b461524)
+
+![image](https://github.com/user-attachments/assets/caa4158d-671f-46da-a4ef-23ea2c122729)
+
 
