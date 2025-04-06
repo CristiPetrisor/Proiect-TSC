@@ -121,6 +121,4 @@ Notă: Pinii sunt alocați conform specificațiilor ESP32-C6 și cerințelor dis
 Poze Schematic si PCB 
 ![image](https://github.com/user-attachments/assets/ed25abf7-a51e-4dfd-a840-12502b461524)
 
-![image](https://github.com/user-attachments/assets/caa4158d-671f-46da-a4ef-23ea2c122729)
-
-
+![image](https://github.com/user-attachments/assets/e4c52863-9902-48f8-b3e6-1f1b79780c89)
