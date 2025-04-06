@@ -1,4 +1,4 @@
-# README - OpenBook E-Reader
+# OpenBook E-Reader - Readme
 
 **Proiect TSC - Caramida-Stoian Petrisor-Cristian**
 
