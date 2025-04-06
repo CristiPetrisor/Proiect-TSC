@@ -2,7 +2,7 @@
 
 **Proiect TSC - Caramida-Stoian Petrisor-Cristian**
 
-## Prezentare Generală
+## Prezentare pe scurt
 
 OpenBook este un e-reader open-source bazat pe ESP32-C6, dotat cu ecran e-paper de 7.5", senzori de mediu, sistem de alimentare cu baterie și conectivitate Wi-Fi și USB-C. Documentul prezintă structura hardware și componentele integrate.
 
