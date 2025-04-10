@@ -8,7 +8,7 @@ OpenBook este un e-reader open-source bazat pe ESP32-C6, dotat cu ecran e-paper 
 
 ## Diagramă Bloc
 
-
+```
            +-------------------------+
            |         Battery          |
            +------------+------------+
@@ -40,7 +40,7 @@ OpenBook este un e-reader open-source bazat pe ESP32-C6, dotat cu ecran e-paper 
 | (USB Data ↔ ESP32 USB)     |
 | (ESD & Termination Prot.)  |
 +----------------------------+
-
+```
 
 ## Lista BOM
 
