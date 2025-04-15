@@ -139,3 +139,8 @@ Poze Schematic si PCB
 ![image](https://github.com/user-attachments/assets/ed25abf7-a51e-4dfd-a840-12502b461524)
 
 ![image](https://github.com/user-attachments/assets/e4c52863-9902-48f8-b3e6-1f1b79780c89)
+<img width="1091" alt="Screenshot 2025-04-15 at 20 33 14" src="https://github.com/user-attachments/assets/83117e6a-1bb0-4636-ad96-a07ba14c4e12" />
+<img width="818" alt="Screenshot 2025-04-15 at 20 50 41" src="https://github.com/user-attachments/assets/2c7b4edc-9983-47f6-a119-4bd2d7a2b146" />
+
+
+
